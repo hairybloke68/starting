@@ -19,7 +19,7 @@ header {
     width: 100%;
     text-align: center;
     z-index: 10;
-    background-color: blanchedalmond;
+    background-color: #F1C400;
     font-family: "Dancing Script"
 }
 
@@ -121,6 +121,53 @@ h2.colours {
     font-family: Rajdhani;
 }
 
+/* Headings */
+
+.textstyles {
+    position: relative;
+    top: 0;
+    display: block;
+    border: solid 1px black;
+    padding: 12px;
+    margin: 12px;
+
+}
+
+#h1-heading h1 {
+    font-family: "Work Sans";
+    text-align: left;
+    font-weight: 700;
+    font-size: 26px
+}
+
+#h2-heading h2 {
+    font-family: Rajdhani;
+    text-align: left;
+    font-weight: 700;
+    font-size: 18px;
+    position: static;
+}
+
+#h3-heading h3 {
+    font-family: Rajdahni;
+    text-align: left;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#p-paragraph p {
+    font-family: "Work Sans";
+    text-align: left;
+    font-weight: 400;
+    font-size: 14px
+}
+
+li {
+    font-family: Rajdhani;
+    font-weight: 400;
+    font-size: 14px;
+}
+
 h1 {
     text-align: center;
 }
@@ -132,3 +179,14 @@ h2 {
     font-family: Rubik;
 }
 
+footer {
+    position: relative;
+    top: 10px;
+    width: 100%;
+    font-family: "Dancing Script";
+    background-color: #D35400;
+    color: azure;
+    padding: 5px;
+    text-align: center;
+
+}
