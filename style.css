@@ -1,3 +1,14 @@
+/* Font Imports */
+
+/* Rubik */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* Work Sans */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* Dancing Script  (No Italics)*/ 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+/* Rajdhani */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap');
+
 body {
     background-color: aliceblue;
 }
@@ -8,24 +19,28 @@ header {
     width: 100%
 }
 
+    section {
+        border: solid black 1px;
+    }
+
+
+/* Colors */
+
 #colours {
     position: relative;
     top: 30px;
     
 }
 
-section {
-    border: solid black 1px;
-}
+
 
 p.color {
     display: inline-block;
-    align-items: center;
     padding: 10px auto;
     text-align: center;
     width: 150px;
     height: 150px;
-    margin: 14px auto;
+    margin: 14px 10px;
     border: solid black 1px;
 }
 
@@ -64,10 +79,14 @@ p.color {
     color: azure;
 }
 
-p {
-    padding: 10px;
-    margin: 10px;
+h2.colours {
+    position: relative;
+    top: 50px;
 }
+
+/* Fonts */
+
+
 
 
 h1 {
@@ -80,7 +99,3 @@ h2 {
     top: 20px;
 }
 
-h2.colours {
-    position: relative;
-    top: 50px;
-}
