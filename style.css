@@ -9,7 +9,6 @@ header {
 }
 
 #colours {
-    display: inline-block;
     position: relative;
     top: 30px;
     width: 100%;
@@ -20,14 +19,43 @@ section {
     border: solid black 1px;
 }
 
-.indianred {
-    background-color: #CD5C5C;
-}
-
-p.indianred {
+p.color {
+    display: inline-block;
     padding: 10px auto;
     text-align: center;
+    width: 150px;
+    height: 150px;
+    margin: 14px auto;
+    border: solid black 1px;
 }
+
+#pomegranate  {
+    background-color: #CD6155;
+    
+}
+
+
+#amethyst {
+    background-color: #AF7AC5;
+}
+
+#peter-river {
+    background-color: #5DADE2;
+}
+
+#emerald {
+    background-color: #2ECC71;
+}
+
+#sunflower {
+    background-color: #F1C40F;
+}
+
+p {
+    padding: 10px;
+    margin: 10px;
+}
+
 
 h1 {
     text-align: center;
