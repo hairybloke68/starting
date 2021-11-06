@@ -11,8 +11,7 @@ header {
 #colours {
     position: relative;
     top: 30px;
-    width: 100%;
-    height: 200px;
+    
 }
 
 section {
@@ -21,6 +20,7 @@ section {
 
 p.color {
     display: inline-block;
+    align-items: center;
     padding: 10px auto;
     text-align: center;
     width: 150px;
@@ -51,6 +51,19 @@ p.color {
     background-color: #F1C40F;
 }
 
+#orange {
+    background-color: #F39C12;
+}
+
+#pumpkin {
+    background-color: #D35400;
+}
+
+#midnight-blue {
+    background-color: #2C3E50;
+    color: azure;
+}
+
 p {
     padding: 10px;
     margin: 10px;
@@ -63,6 +76,8 @@ h1 {
 
 h2 {
     text-align: left;
+    position: relative;
+    top: 20px;
 }
 
 h2.colours {
