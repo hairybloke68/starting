@@ -16,11 +16,19 @@ body {
 header {
     position: fixed;
     top: 0;
-    width: 100%
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+    background-color: blanchedalmond;
+    font-family: "Dancing Script"
 }
 
     section {
+        position: relative;
+        top: 20px;
         border: solid black 1px;
+
+       
     }
 
 
@@ -28,7 +36,7 @@ header {
 
 #colours {
     position: relative;
-    top: 30px;
+    top: 40px;
     
 }
 
@@ -42,6 +50,7 @@ p.color {
     height: 150px;
     margin: 14px 10px;
     border: solid black 1px;
+    font-family: Rajdhani;
 }
 
 #pomegranate  {
@@ -72,6 +81,7 @@ p.color {
 
 #pumpkin {
     background-color: #D35400;
+    color: azure;
 }
 
 #midnight-blue {
@@ -81,13 +91,35 @@ p.color {
 
 h2.colours {
     position: relative;
-    top: 50px;
+    top: 60px;
 }
 
 /* Fonts */
 
+.fontbox {
+    position: relative;
+    top: 0;
+    display: inline-block;
+    border: solid 1px black;
+    padding: 12px;
+    margin: 12px;
+}
 
+#rubik {
+    font-family: Rubik;
+}
 
+#work-sans {
+    font-family: "Work Sans";
+}
+
+#dancing-script {
+    font-family: "Dancing Script";
+}
+
+#rajdhani {
+    font-family: Rajdhani;
+}
 
 h1 {
     text-align: center;
@@ -96,6 +128,7 @@ h1 {
 h2 {
     text-align: left;
     position: relative;
-    top: 20px;
+    top: 40px;
+    font-family: Rubik;
 }
 
